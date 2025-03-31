@@ -6,9 +6,14 @@
     <title>Etch a Sketch</title>
 </head>
 <body>
-    <button id="grid-size">Choose Grid Size</button>
-    <div class="game-container">
+    <button onclick="getGridSize ()">Choose Grid Size</button>
+    <button onclick="setColor ('grey')">Grey</button>
+    <button onclick="setColor ('rainbow')">Rainbow</button>
+    <button onclick="setColor ('shade')">Shading</button>
+    <button onclick="setColor ('erase')">Eraser</button>
+    <button onclick="clearGrid ()">Clear Grid</button>
 
+    <div class="game-container">
     </div>
     <script src="index.js"></script>
 </body>
